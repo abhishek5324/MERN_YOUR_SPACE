@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;font-family: 'Mulish', sans-serif;
+  
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*background-color: aqua;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+color: #565387 !important;
+
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar{
+  background-color: #fff !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover{
+color: #3498db !important;
+}
+.btn-get-started{
+  text-decoration: none;
+  color:blue;
+  border:1px solid blue;
+  background:transparent;
+  border-radius: 50px ;
+ 
+  padding:10px;
+}
+.btn-get-started:hover{
+  color:white;
+  background: blue;
+  
+}
+.brand-name{
+  color:red;
+}
+.brand-names{
+  color:lightskyblue;
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#headerabout h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#headerabout {
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.brand-namess{
+  color:lightskyblue;
+}
+.arr{
+  margin-left: 50px;
+  margin-right: 78%;
+  width: 45%;
+  margin-top: 40px;
+}
+
+
+.arrr{
+  margin-left: 50px;
+  margin-right: 78%;
+  width: 45%;
+  margin-top: 40px;
+  
+  
+}
+.floatRight{float:right;margin-left:20px}
+
+.blog-item {
+  display: grid;
+  /* gap: 1rem 2rem; */
+  max-width: 25rem;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 8px 8px 16px rgb(114, 110, 117),
+    -8px -8px 16px rgba(255, 245, 235);
+  display: grid;
+  /* gap: 3rem 2rem; */
+  /* justify-items: center; */
+}
+
+.photo {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
+  display: block;
+}
+
+.section-blog {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+}
+
+.div6{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+/* jnnvjn */
+
+
+.blog-item1 {
+  display: grid;
+  /* gap: 1rem 2rem; */
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 8px 8px 16px rgb(114, 110, 117),
+    -8px -8px 16px rgba(255, 245, 235);
+  display: grid;
+  /* gap: 3rem 2rem; */
+  /* justify-items: center; */
+}
+
+.photo1 {
+  object-fit: contain;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
+  display: block;
+}
+.section-blog1 {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+}
+
+
+hr.style-seven {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+.h1B{
+  text-align: center;
+  font-family: 'Odibee Sans', cursive;
+  color:  linear-gradient(to right, #ff9df7, #ff95bc, #ffa97d, #ffcb54, #c1eb63);;
+}
+.btn2{
+  display: flex;
+}
+.btn1{
+  display: inline-block;
+  width: 50%;
+ 
+}
+
+.footer {
+  /* flex-shrink: 0;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  padding-bottom: 0px; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  background-color: #232323;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+.p1{
+    margin-top: 0.5%;
+    color: deeppink;
+}
